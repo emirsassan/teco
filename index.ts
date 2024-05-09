@@ -3,7 +3,7 @@
  * @param filePath Path to the configuration file.
  * @returns A promise that resolves to the parsed configuration object.
  */
-async function readTecoConfig(filePath: string): Promise<Record<string, string | Record<string, string> | string[]>> {
+export async function readTecoConfig(filePath: string): Promise<Record<string, string | Record<string, string> | string[]>> {
   // Read the file contents
   const configText = await Bun.file(filePath).text();
 
