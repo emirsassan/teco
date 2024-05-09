@@ -1,0 +1,3 @@
+# teco
+
+Minimal config system
