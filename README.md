@@ -1,3 +1,3 @@
 # teco
 
-Minimal config system
+Teco is a minimal config system for Bun applications.
